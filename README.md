@@ -1,4 +1,4 @@
-# swnolan.com project directory
+# Personal website project directory
 This repository contains all of the resources needed to run swnolan.com
 
 ![html_button](https://img.shields.io/html5/v/html5.svg?logo=html5)
