@@ -1,7 +1,19 @@
 body{background-color: beige}
-h1{color:hsl(128, 100%, 50%)}
+.navbar li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+}
+h1{
+    color:hsl(0, 0%, 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 h2{
-    color:hsl(128, 100%, 50%);
+    color:hsl(0, 0%, 0%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,4 +45,8 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer{
+    background-color: black;
+    color:white
 }
