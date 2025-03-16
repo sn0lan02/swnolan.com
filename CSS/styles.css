@@ -1,10 +1,33 @@
+.container{
+    margin: auto;
+}
 body{background-color: beige}
 .navbar li a{
-    background-color: black;
     color: white;
+    font-family: serif, Times, 'Times New Roman';
     text-decoration: none;
     display: inline;
+    justify-content: right;
+}
+.navbar-container{
+    background-color: black;
+}
+.h1-container{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.h1-container figure{
+    margin: 0;
+}
+.h1-container img{
+    width: 30px;
+}
+.h1-container .tn1{
+    margin-right: 10px;
+}
+.h1-container .tn2{
+    margin-left: 10px;
 }
 h1{
     color:hsl(0, 0%, 0%);
@@ -37,11 +60,6 @@ h2{
     justify-content: center;
 }
 .content2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.reward{
     display: flex;
     align-items: center;
     justify-content: center;

@@ -11,3 +11,5 @@ The goal of this project is to create a professional website showcasing my profe
 - add navigation bar
 - Create link to external site
 - Add functionality
+
+h1 and figures in header content will not align properly. must fix!
