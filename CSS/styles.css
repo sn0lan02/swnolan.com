@@ -55,7 +55,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: copperplate;
+    font-family: copperplate, serif;
 }
 h2{
     color:hsl(0, 0%, 0%);
