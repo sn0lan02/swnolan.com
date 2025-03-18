@@ -7,21 +7,29 @@ body{
 }
 /* navbar formatting */
 .navbar ul{
-    padding: 0%;
+    padding: 10px;
     margin: 0%;
     overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
 }
 .navbar a{
     color: white;
     text-decoration: none;
     list-style-type: none;
-    display: block;
-    justify-content: right;
-    font-family: serif, Times, 'Times New Roman';
+    display: flex;
+    text-align: center;
+    font-family: sans-serif, Times, 'Times New Roman';
+    justify-content: space-between;
 }
 .navbar a:hover{
     color: black;
     background-color: white;
+}
+.navbar li{
+    float: left;
+    text-align: center;
+    list-style-type: none;
 }
 .navbar-container{
     background-color: black;
@@ -47,6 +55,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: copperplate;
 }
 h2{
     color:hsl(0, 0%, 0%);
