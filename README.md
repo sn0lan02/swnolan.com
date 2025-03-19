@@ -22,3 +22,14 @@ The goal of this project is to create a professional website showcasing my profe
 - add link to gmail (and maybe github)
 
 ## requirements for BAIS:3300 mod 8 HW
+- [x] At least two web pages
+- [] two links to external sites
+- [x] two appropriate photos
+- [x] contains at least two different sized headings
+- [x] contains one ordered or unordered list
+- [x] organizes html info using semantic elements
+- [] all pages successfully validate as HTML5 and CSS3
+- [x] at least 6 elements are formatted on your site using External CSS
+- [x] stylesheet uses at least 1 class element fo custom formatting
+- [] table appears on one page. CSS is used to style the table
+- [x] multiple git repo pushes with useful commit messages
