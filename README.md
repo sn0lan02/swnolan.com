@@ -21,6 +21,11 @@ The goal of this project is to create a professional website showcasing my profe
 <u>Footer</u>
 - add link to gmail (and maybe github)
 
+<u>web hosting</u>
+[] Apache server
+[] static web app
+[] windows IIS
+
 ## requirements for BAIS:3300 mod 8 HW
 - [x] At least two web pages
 - [] two links to external sites
@@ -33,3 +38,4 @@ The goal of this project is to create a professional website showcasing my profe
 - [x] stylesheet uses at least 1 class element fo custom formatting
 - [] table appears on one page. CSS is used to style the table
 - [x] multiple git repo pushes with useful commit messages
+- [] hosted on web?
