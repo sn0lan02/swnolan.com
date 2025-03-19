@@ -104,7 +104,18 @@ h2{
     align-items: center;
     justify-content: center;
 }
+/*footer content and social media links */
 footer{
     background-color: black;
     color:white
+}
+.SM_acc_links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: none;
+}
+.SM_acc_links img{
+    width: 30px;
+    height: auto;
 }
