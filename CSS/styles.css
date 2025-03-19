@@ -87,6 +87,7 @@ h2{
     border-right: 0%;
 }
 .logo_banner{
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
