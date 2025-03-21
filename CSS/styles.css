@@ -120,3 +120,15 @@ footer{
     width: 30px;
     height: auto;
 }
+/* table formats */
+table#favorites-table,
+th,
+td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table#favorites-table thead {
+    background-color: lightgrey;
+}
+
