@@ -121,18 +121,14 @@ footer{
     height: auto;
 }
 /* table formats */
-.favorites-table{
-
+table#favorites-table,
+th,
+td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
 }
-.favorites-table thead tr{
-    background-color: grey;
-    color: white;
-    text-align: left;
-}
-.favorites-table th{
-
-}
-.favorites-table td{
-
+table#favorites-table thead {
+    background-color: lightgrey;
 }
 
