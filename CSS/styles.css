@@ -52,6 +52,7 @@ body{
 .navbar-logo.tn_left{
     float: left;
 }
+/*_______________________________*/
 h1{
     color:white;
     display: flex;
@@ -83,8 +84,6 @@ h2{
     padding-right: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    border-left: 0%;
-    border-right: 0%;
 }
 .logo_banner{
     display: flex;
@@ -114,7 +113,6 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    overflow: none;
 }
 .SM_acc_links img{
     width: 30px;
