@@ -38,6 +38,9 @@ The goal of this project is to create a professional website showcasing my skill
 - [X] styles.css
 
 # Future Updates
+<u>General<u>
+- Add contents on bio, and projects and experiences
+
 <u>navbar</u>
 - make position: fixed; across pages without breaking current format
 - make hover boxes larger
@@ -50,3 +53,6 @@ The goal of this project is to create a professional website showcasing my skill
 
 <u>Footer</u>
 - add link to gmail (and maybe github)
+
+### Features I'm interested in experimenting with
+- Using APIs to show info and acheivements from other applications I use (specifically, was interested in displaying my progress on Duolingo or displaying trophies for games on playstation?)
