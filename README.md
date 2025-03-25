@@ -53,5 +53,9 @@ The goal of this project is to create a professional website showcasing my skill
 <u>Footer</u>
 - add link to gmail (and maybe github)
 
+<u>Bio Page</u>
+- remove gap between h2 and main
+- add padding between footer and table1
+
 ### Features I'm interested in experimenting with
 - Using APIs to show info and acheivements from other applications I use (specifically, was interested in displaying my progress on Duolingo or displaying trophies for games on playstation?)
