@@ -37,6 +37,8 @@ body{
     background-color: black;
     margin: 0%;
     padding: 0%;
+    position: fixed;
+    width: 100%;
 }
 .navbar-logo{
     display: flex;
@@ -53,6 +55,18 @@ body{
     float: left;
 }
 /*_______________________________*/
+main{
+    padding-top: 125px;
+}
+.ab-me{
+    padding-top: 110px;
+}
+.exp{
+    padding-top: 115px;
+}
+.blog{
+    padding-top: 115px;
+}
 h1{
     color:white;
     display: flex;

@@ -42,7 +42,6 @@ The goal of this project is to create a professional website showcasing my skill
 - Add contents on bio, and projects and experiences
 
 <u>navbar</u>
-- make position: fixed; across pages without breaking current format
 - make hover boxes larger
 
 <u>index main content</u>
