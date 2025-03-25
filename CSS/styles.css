@@ -55,6 +55,7 @@ body{
     float: left;
 }
 /*_______________________________*/
+/*Seperates main page content from navbar container*/
 main{
     padding-top: 125px;
 }
@@ -67,6 +68,7 @@ main{
 .blog{
     padding-top: 115px;
 }
+/*_______________________________*/
 h1{
     color:white;
     display: flex;
