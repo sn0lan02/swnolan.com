@@ -6,6 +6,8 @@
     <link rel="'icon" href="favicom/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicom/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/styles.css">
+    <!--Cookie pop up-->
+    <link rel="stylesheet" href="cookie-popup.css">
 </head>
 <!--Webpage-->
 <body>
@@ -40,7 +42,6 @@
         <div class="h1-container">
         <section class="heading_content">
                     <img class="lilyachty" src="media/lil-yachty2.gif" alt="Lil Yachty Concert">
-                <h2>Content Coming Soon</h2>
                     <p class="heading_p1">
                         This webside is owned and operated by Stephen Nolan. <em>Thanks for checking it out!</em> 
                     </p>
@@ -63,11 +64,6 @@
             </picture>
                 <p class="intro_p1">I'm currently a student at the University of Iowa studying Finance and Business Analytics and Information Systems. I'm on track to graduate with a BBA of Business analytics and Information Systems in May of 2025. I'll complete my Finance coursework through the University of Iowa at a later date.</p>
         </section>
-        <!-- Under Construction
-        <section class="contact_form">
-            
-        </section>
--->
     </main>
     <footer>
         <!--Add widgets with links to my social media-->
@@ -76,20 +72,34 @@
             <a href="https://www.facebook.com/will.nolan.58958/"><img src="media/facebook_icon.jpeg" alt="facebook_link"></a>
             <a href="https://www.instagram.com/swn0lan_/"><img src="media/Insta_Logo.png" alt="instagram_logo"></a>
             <a href="https://x.com/snola0"><img src="media/x_logo.png" alt="x-logo"></a>
+            <a href="https://github.com/sn0lan02"><img src="media/Github-Logo.png" alt="github-logo"></a>
             <!--Gmail--><a href=""></a>
             <a href="https://www.linkedin.com/in/willn0lan/"><img src="media/linkedin_logo.jpeg" alt="linkedin-logo"></a>
         </div>
-        &copy; Stephen W. Nolan II
+        <div class="cpyrt">
+            <span>&copy; Stephen W. Nolan II || </span>
+            <a class="privacy-policy" href="media/terms&conditions.pdf">Terms & Conditions</a>
+        </div>
     </footer>
+<!--Cookie pop up function-->
+<div id="cookie-popup">
+    <p>
+    By using this site you agree to the storing of cookies on your device to
+    enhance site navigation and to analyze site usage. Learn more about our
+    <a rel="cookie-policy" href="media/cookie-policy.pdf">cookie policy</a>.
+    </p>
+    <p>
+    <button id="accept-cookies">Accept</button>
+    </p>
 </div>
+</div>
+<script src="cookie-popup.js" defer></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJL1R3CF02"></script>
-<!--Cookie pop up-->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-NJL1R3CF02');
 </script>
 </body>
