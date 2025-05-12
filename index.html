@@ -6,6 +6,8 @@
     <link rel="'icon" href="favicom/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicom/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/styles.css">
+    <!--Cookie pop up-->
+    <link rel="cookie-script" href="cookie-popup.js">
 </head>
 <!--Webpage-->
 <body>
@@ -63,11 +65,6 @@
             </picture>
                 <p class="intro_p1">I'm currently a student at the University of Iowa studying Finance and Business Analytics and Information Systems. I'm on track to graduate with a BBA of Business analytics and Information Systems in May of 2025. I'll complete my Finance coursework through the University of Iowa at a later date.</p>
         </section>
-        <!-- Under Construction
-        <section class="contact_form">
-            
-        </section>
--->
     </main>
     <footer>
         <!--Add widgets with links to my social media-->
@@ -81,15 +78,24 @@
         </div>
         &copy; Stephen W. Nolan II
     </footer>
+<!--Cookie pop up function-->
+<div id="cookie-popup">
+    <p>
+    By using this site you agree to the storing of cookies on your device to
+    enhance site navigation and to analyze site usage. Learn more about our
+    <a href="/cookie-policy">cookie policy</a>.
+    </p>
+    <p>
+    <button id="accept-cookies">Accept</button>
+    </p>
+</div>
 </div>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJL1R3CF02"></script>
-<!--Cookie pop up-->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-NJL1R3CF02');
 </script>
 </body>
