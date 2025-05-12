@@ -145,4 +145,21 @@ td{
 table#favorites-table thead {
     background-color: lightgrey;
 }
+.cpywrt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.privacy-policy{
+    color: white;
+}
+.privacy-policy:hover{
+    color: black;
+    background-color: white;
+}
+.privacy-policy:visited{
+    color: lightgray;
+}
 
