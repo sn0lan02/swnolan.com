@@ -38,6 +38,4 @@ The goal of this project is to create a professional website showcasing my skill
 - [X] styles.css
 
 # sprint 2 | Apr 28 - May 5
- Create cookie pop up
- - Add a cookie policy and make sure cookie pop up is functional
- - add github profile to footer banner
+write html page for terms and conditions and cookies policy page
