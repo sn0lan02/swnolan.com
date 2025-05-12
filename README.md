@@ -37,25 +37,7 @@ The goal of this project is to create a professional website showcasing my skill
 ### CSS
 - [X] styles.css
 
-# Future Updates
-<u>General<u>
-- Add contents on bio, and projects and experiences
-
-<u>navbar</u>
-- make hover boxes larger
-
-<u>index main content</u>
-- reformat logo flexbox (i.e the even spaced flexbox looks awkward, find a better way to present this)
-
-<u>projects and experiences page</u>
-- write paragraph content
-
-<u>Footer</u>
-- add link to gmail (and maybe github)
-
-<u>Bio Page</u>
-- remove gap between h2 and main
-- add padding between footer and table1
-
-### Features I'm interested in experimenting with
-- Using APIs to show info and acheivements from other applications I use (specifically, was interested in displaying my progress on Duolingo or displaying trophies for games on playstation?)
+# sprint 2 | Apr 28 - May 5
+ Create cookie pop up
+ - Add a cookie policy and make sure cookie pop up is functional
+ - add github profile to footer banner
