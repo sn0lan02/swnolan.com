@@ -162,4 +162,7 @@ table#favorites-table thead {
 .privacy-policy:visited{
     color: lightgray;
 }
+.exp header .Resume{
+    align-items: center;
+}
 
