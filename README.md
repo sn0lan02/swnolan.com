@@ -37,7 +37,14 @@ The goal of this project is to create a professional website showcasing my skill
 ### CSS
 - [X] styles.css
 
-# sprint 2 | Apr 28 - May 5
- Create cookie pop up
- - Add a cookie policy and make sure cookie pop up is functional
- - add github profile to footer banner
+# sprint 01 backlog (v1.01)
+- edit cookie pop up so it does not return if a user refreshes a page
+
+### add professionality to page 
+- remove yachty banner :( (would maybe be fun to stash this version somewhere for keepsake)
+- add bootstrap elements
+
+
+# future sprints
+-add javascript functionality
+-integrate for phone web browsers
