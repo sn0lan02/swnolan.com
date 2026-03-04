@@ -1,11 +1,17 @@
+html, body{
+    height: 100%
+}
 .container{
     margin: 0px;
     border: 0px;
     padding: 0px;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 body{
     margin: 0px;
-    background-color: beige
+    background-color: beige;
 }
 /* navbar formatting */
 .navbar ul{
