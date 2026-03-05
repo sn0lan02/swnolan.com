@@ -74,11 +74,14 @@ h3{
     padding-top: 110px;
 }
 /*Experience*/
+.logo_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .logo_banner img{
     width: 100px;
     height: auto;
-    justify-content: space-between;
-    align-items: center;
 }
 /*footer content and social media links */
 footer{
