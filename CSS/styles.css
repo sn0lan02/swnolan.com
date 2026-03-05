@@ -11,7 +11,7 @@ html, body{
 }
 body{
     margin: 0px;
-    background-color: beige;
+    background-color: rgb(224, 247, 255);
 }
 /* navbar formatting */
 .navbar ul{
@@ -46,37 +46,12 @@ body{
     position: fixed;
     width: 100%;
 }
-.navbar-logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.navbar-logo img{
-    width: 30px;
-}
-.navbar-logo.tn_right{
-    float: right;
-}
-.navbar-logo.tn_left{
-    float: left;
-}
-/*_______________________________*/
-/*Seperates main page content from navbar container*/
+/*_____constant styling variables_____*/
 main{
     padding-top: 125px;
 }
-.ab-me{
-    padding-top: 110px;
-}
-.exp{
-    padding-top: 115px;
-}
-.blog{
-    padding-top: 115px;
-}
-/*_______________________________*/
 h1{
-    color:white;
+    color:blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,43 +63,22 @@ h2{
     align-items: center;
     justify-content: center;
 }
-.header-container{
-    display: flex;
+h3{
+    display: grid;
     align-items: center;
     justify-content: center;
 }
-.header-container img{
-    margin: 0 10px;
+/*_____styling variables by page_____*/
+/*About Me*/
+.ab-me{
+    padding-top: 110px;
 }
-.lilyachty{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 200px;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-.logo_banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/*Experience*/
 .logo_banner img{
     width: 100px;
     height: auto;
-}
-.content1{
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-}
-.content2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 /*footer content and social media links */
 footer{
