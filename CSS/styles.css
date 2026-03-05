@@ -11,7 +11,8 @@ html, body{
 }
 body{
     margin: 0px;
-    background-image: url("media/webpage_background.jpg");
+    background-image: url("../media/webpage_background.jpg");
+    background-size: cover;
     /*background-color: rgb(224, 247, 255);*/
 }
 /* navbar formatting */
@@ -52,32 +53,43 @@ main{
     padding-top: 50px;
 }
 h1{
-    color:navy;
+    color:white;
+    border: 4px black;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', serif;
 }
 h2{
-    color:hsl(0, 0%, 0%);
+    color:white;
+    border: 4px black;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', sans-serif;
 }
 h3{
+    color: white;
+    border: 4px black;
     display: grid;
     align-items: center;
     justify-content: center;
 }
 p:not(.cookie-popup-txt){
+    color: white;
+    border: 4px black;
     font-family: 'Gill Sans',sans-serif;
 }
 figcaption{
     text-align: center;
+    color: white;
+    border: 4px black;
 }
 /*_____styling variables by page_____*/
 /*Introduction*/
+.intro_p1{
+    text-align: center;
+}
 .pfp{
     display: block;
     margin: auto;
@@ -103,6 +115,18 @@ figcaption{
 .portrait{
     width: auto;
     height: 250px;
+}
+table, td, th{
+    border: 6px solid black
+}
+caption{
+    color: white;
+    border: 4px black;
+
+}
+td{
+    color: white;
+    border: 4px black
 }
 /*Experience*/
 .certification-row{
