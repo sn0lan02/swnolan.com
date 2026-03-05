@@ -23,11 +23,11 @@ body{
 }
 .navbar a{
     color: white;
+    font-family: 'Gill Sans', serif;
     text-decoration: none;
     list-style-type: none;
     display: flex;
     text-align: center;
-    font-family: sans-serif, Times, 'Times New Roman';
     justify-content: space-between;
 }
 .navbar a:hover{
@@ -48,32 +48,52 @@ body{
 }
 /*_____constant styling variables_____*/
 main{
-    padding-top: 125px;
+    padding-top: 50px;
 }
 h1{
     color:blue;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: copperplate, serif;
+    font-family: 'Gill Sans', serif;
 }
 h2{
     color:hsl(0, 0%, 0%);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Gill Sans', sans-serif;
 }
 h3{
     display: grid;
     align-items: center;
     justify-content: center;
 }
-/*_____styling variables by page_____*/
-/*About Me*/
-.ab-me{
-    padding-top: 110px;
+p:not(.cookie-popup-txt){
+    font-family: 'Gill Sans',sans-serif;
 }
+figcaption{
+    text-align: center;
+}
+/*_____styling variables by page_____*/
+/*Introduction*/
+.pfp{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+/*About Me*/
 /*Experience*/
+.certification-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certification{
+    width: 350px;
+    height: auto;
+}
 .logo_banner{
     display: flex;
     align-items: center;
