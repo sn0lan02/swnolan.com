@@ -11,7 +11,8 @@ html, body{
 }
 body{
     margin: 0px;
-    background-color: rgb(224, 247, 255);
+    background-image: url("media/webpage_background.jpg");
+    /*background-color: rgb(224, 247, 255);*/
 }
 /* navbar formatting */
 .navbar ul{
@@ -51,7 +52,7 @@ main{
     padding-top: 50px;
 }
 h1{
-    color:blue;
+    color:navy;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +84,26 @@ figcaption{
     width: 500px;
     height: auto;
 }
+.certified{
+    text-align: center;
+}
 /*About Me*/
+.personal-photos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dog{
+    margin: 0;
+}
+.landscape{
+    width: auto;
+    height: 250px;
+}
+.portrait{
+    width: auto;
+    height: 250px;
+}
 /*Experience*/
 .certification-row{
     display: flex;
