@@ -149,15 +149,6 @@ td{
     width: 350px;
     height: auto;
 }
-.logo_banner{
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-}
-.logo_banner img{
-    width: 100px;
-    height: auto;
-}
 .Resume{
     text-align: right;
     color: white;
