@@ -147,6 +147,14 @@ td{
     width: 100px;
     height: auto;
 }
+.Resume{
+    text-align: right;
+    color: white;
+    border: 4px black
+}
+.resume:hover{
+    color: lightskyblue;
+}
 /*footer content and social media links */
 footer{
     background-color: black;
