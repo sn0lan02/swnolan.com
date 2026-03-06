@@ -24,14 +24,17 @@ body{
     /*background-color: rgb(224, 247, 255);*/
 }
 /* navbar formatting */
-header .navbar ul{
+header{
+    background-color: black;
+}
+header .main-navbar ul{
     padding: 10px;
     margin: 0%;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
 }
-header .navbar a{
+header .main-navbar a{
     color: white;
     font-family: 'Gill Sans', serif;
     text-decoration: none;
@@ -40,16 +43,16 @@ header .navbar a{
     text-align: center;
     justify-content: space-between;
 }
-header .navbar a:hover{
+header .main-navbar a:hover{
     color: black;
     background-color: white;
 }
-header .navbar li{
+header .main-navbar li{
     float: left;
     text-align: center;
     list-style-type: none;
 }
-.navbar-container{
+.navbar-main-container{
     background-color: black;
     margin: 0%;
     padding: 0%;
@@ -148,8 +151,8 @@ td{
 }
 .logo_banner{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
 }
 .logo_banner img{
     width: 100px;
@@ -177,6 +180,9 @@ footer{
     width: 30px;
     height: auto;
 }
+.SM_acc_links p{
+    margin: 0;
+}
 /* table formats */
 table#favorites-table,
 th,
@@ -192,6 +198,7 @@ table#favorites-table thead {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
 
 }
