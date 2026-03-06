@@ -166,6 +166,11 @@ td{
 .resume:hover{
     color: lightskyblue;
 }
+.accordion-logo{
+    width: 70px;
+    height: auto;
+    justify-content: left;
+}
 /*footer content and social media links */
 footer{
     background-color: black;
