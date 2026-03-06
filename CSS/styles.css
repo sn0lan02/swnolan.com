@@ -9,6 +9,14 @@ html, body{
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
 }
+.container-fluid{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
 body{
     margin: 0px;
     background-image: url("../media/webpage_background.jpg");
@@ -16,14 +24,14 @@ body{
     /*background-color: rgb(224, 247, 255);*/
 }
 /* navbar formatting */
-.navbar ul{
+header .navbar ul{
     padding: 10px;
     margin: 0%;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
 }
-.navbar a{
+header .navbar a{
     color: white;
     font-family: 'Gill Sans', serif;
     text-decoration: none;
@@ -32,11 +40,11 @@ body{
     text-align: center;
     justify-content: space-between;
 }
-.navbar a:hover{
+header .navbar a:hover{
     color: black;
     background-color: white;
 }
-.navbar li{
+header .navbar li{
     float: left;
     text-align: center;
     list-style-type: none;
