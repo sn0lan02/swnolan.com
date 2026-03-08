@@ -152,7 +152,8 @@ td{
 .Resume{
     text-align: right;
     color: white;
-    border: 4px black
+    border: 4px black;
+    text-decoration: none;
 }
 .resume:hover{
     color: lightskyblue;
@@ -161,6 +162,10 @@ td{
     width: 70px;
     height: auto;
     justify-content: left;
+}
+.resume_click{
+    background-color: black;
+    border-radius: 10px;
 }
 /*footer content and social media links */
 footer{
