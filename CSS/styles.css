@@ -140,6 +140,9 @@ td{
     border: 4px black
 }
 /*Experience*/
+.accordion{
+    margin: 20px;
+}
 .certification-row{
     display: flex;
     justify-content: center;
