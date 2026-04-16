@@ -22,12 +22,24 @@
                 </nav>
             </div>
         </header>
-        <main class="blog">
-            <p><u><b>This is whats happening with me...</b></u></p>
-            <article>
-                <h3>3/18/25 - Chicago Blackhawks face the Seattle Kraken @ the UC</h3>
-                <p>on tuesday night, a few friends and I drove over to the United Center in Chicago to watch the Blackhawks face off against the Seattle Kraken. What a great experience! I have never seen the Kraken play live and always love to watch the Blackhawks. All was well up until the 2nd period the Kraken scored 6 unanswered goals and the hawks fizzled out.</p>
-            </article>
+        <main>
+            <div class="blog">
+                <div id="joke-box">
+                    <p id="setup">&nbsp;</p>
+                    <p id="delivery">&nbsp;</p>
+                    <button id='joke-generator' onclick="generateJoke()">Generate a Joke</button>
+                </div>
+                <div id="blog">
+                    <p id="blog-header"><u><b>This is whats happening with me...</b></u></p>
+                    <article>
+                        <h3>3/18/25 - Chicago Blackhawks face the Seattle Kraken @ the UC</h3>
+                        <p>on tuesday night, a few friends and I drove over to the United Center in Chicago to watch the Blackhawks face off against the Seattle Kraken. What a great experience! I have never seen the Kraken play live and always love to watch the Blackhawks. All was well up until the 2nd period the Kraken scored 6 unanswered goals and the hawks fizzled out.</p>
+                    </article>
+                </div>
+                <div id="spotify-api">
+
+                </div>
+            </div>
         </main>
         <footer>
             <!--social media widgets-->
@@ -51,5 +63,7 @@
         gtag('js', new Date());
         gtag('config', 'G-NJL1R3CF02');
     </script>
+    <!--Joke API script Link-->
+    <script src="js/joke-gen.js"></script>
 </body>
 </html>
