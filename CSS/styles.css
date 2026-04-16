@@ -220,4 +220,9 @@ table#favorites-table thead {
 .exp header .Resume{
     align-items: center;
 }
+#joke-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 

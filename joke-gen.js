@@ -1,6 +1,9 @@
-fetch('https://v2.jokeapi.dev/joke/Any')
-.then(res => {
-    return res.json();
-})
 
-console.log(res)
+function generateJoke() {
+fetch('https://v2.jokeapi.dev/joke/Any')
+.then(res => res.json())
+.then(data => {
+    document.getElementById("setup").textContent = data.setup;
+    document.getElementById("delivery").textContent = data.delivery;
+});
+}
